@@ -61,7 +61,8 @@ body {
 }
 
 /* 清除浮动 */
-.clearfix:after {
+.clearfix:after,
+.clearfix::before {
     visibility: hidden;
     clear: both;
     display: block;
