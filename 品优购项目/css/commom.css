@@ -66,7 +66,7 @@
     top: 25px;
     width: 171px;
     height: 61px;
-    background-color: red;
+    background-color: skyblue;
 }
 
 /* logo SEO */
@@ -75,4 +75,9 @@
     width: 171px;
     height: 61px;
     background: url(../images/logo.png) no-repeat;
+    /* 淘宝做法 */
+    /* text-indent: -99999px;
+    overflow: hidden; */
+    /* 京东做法 */
+    font-size: 0;
 }
