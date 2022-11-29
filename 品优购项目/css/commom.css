@@ -55,6 +55,24 @@
 
 /* 头部 */
 .header {
+    position: relative;
     height: 105px;
     background-color: pink;
+}
+
+/* logo */
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    background-color: red;
+}
+
+/* logo SEO */
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
 }
