@@ -4,13 +4,6 @@
     margin: 0 auto;
 }
 
-/* 快捷导航栏 */
-.shortcut {
-    height: 31px;
-    line-height: 31px;
-    background-color: #f1f1f1f1;
-}
-
 /* 左浮动 */
 .fl {
     float: left;
@@ -24,4 +17,19 @@
 /* 字体红色 */
 .style_rd {
     color: #c81623;
+}
+
+/* 快捷导航栏 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1f1;
+}
+
+/* 快捷导航栏右侧 */
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 15px;
+    margin: 9px 15px 0px;
+    background-color: #666;
 }
