@@ -81,3 +81,13 @@
     /* 京东做法 */
     font-size: 0;
 }
+
+/* 搜索框 */
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid red;
+}
