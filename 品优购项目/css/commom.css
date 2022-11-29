@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 /* 版心 */
 .w {
     width: 1200px;
@@ -32,4 +44,11 @@
     height: 15px;
     margin: 9px 15px 0px;
     background-color: #666;
+}
+
+/* 箭头 */
+.arrows-icons::after {
+    content: "\e91e";
+    font-family: "icomoon";
+    margin: 0px 0px 0px 6px;
 }
