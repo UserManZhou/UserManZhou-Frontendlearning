@@ -160,3 +160,16 @@
     border-radius: 7px 7px 7px 0;
     color: #fff;
 }
+
+/* nav 导航 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 46px;
+    background-color: #b1191a;
+}
