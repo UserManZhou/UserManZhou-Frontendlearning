@@ -147,3 +147,16 @@
     font-family: "icomoon";
     margin: 0px 0px 0px 10px;
 }
+
+/* 数目 */
+.count {
+    position: absolute;
+    top: -5;
+    left: 95px;
+    padding: 0 5px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #e60012;
+    border-radius: 7px 7px 7px 0;
+    color: #fff;
+}
