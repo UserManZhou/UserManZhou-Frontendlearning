@@ -19,13 +19,23 @@
             animation-duration: 5s;
         }
 
-        @keyframes divframs {
+        /*  @keyframes divframs { 
             0% {
                 transform: translate(0px 0px);
             }
 
             100% {
                 transform: translate(500px, 500px);
+            }
+        } */
+
+        @keyframes divframs {
+            from {
+                transform: translate(0px, 0px);
+            }
+
+            to {
+                transform: translate(1000px, 1000px);
             }
         }
     </style>
