@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* 动画名称 */
+            animation-name: move;
+            /* 动画运动周期 */
+            animation-duration: 10s;
+            /* 动画曲线 */
+            animation-timing-function: ease;
+            /* 动画开始时间 */
+            animation-delay: 1s;
+            /* 动画重复次数 */
+            /* animation-iteration-count: infinite; */
+            /* 动画方向：是否逆向 默认：normal */
+            /* animation-direction: alternate; */
+            /* 动画结束状态 */
+            animation-fill-mode: forwards;
+            /* 动画是否暂停和运动 */
+            animation-play-state: paused;
+        }
+
+        div:hover {
+            /* 动画是否暂停和运动 */
+            animation-play-state: running;
+        }
+
+        @keyframes move {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(1000px, 800px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
