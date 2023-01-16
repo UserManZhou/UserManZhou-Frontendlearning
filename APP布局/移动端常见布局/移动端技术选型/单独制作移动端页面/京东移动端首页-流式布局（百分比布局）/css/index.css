@@ -15,9 +15,9 @@ body {
 }
 
 /*在移动端浏览器默认的外观在ios上加上这个属性才能给按钮和输入框自定义样式*/
-input {
+/* input {
     -webkit-appearance: none;
-}
+} */
 
 /*禁用长按页面时的弹出菜单*/
 img,
