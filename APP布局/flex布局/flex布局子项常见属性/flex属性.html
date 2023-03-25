@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            height: 100px;
+            display: flex;
+            background-color: red;
+            width: 800px;
+            margin: auto;
+        }
+
+        div:first-child {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+
+        div:nth-child(2) {
+            flex: 1;
+            background-color: saddlebrown;
+        }
+
+        div:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            background-color: palevioletred;
+        }
+
+        p {
+            height: 100px;
+            display: flex;
+            background-color: red;
+            width: 800px;
+            margin: 100px auto;
+        }
+
+        p span {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <p>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </p>
+</body>
+
+</html>
