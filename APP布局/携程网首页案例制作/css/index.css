@@ -1,0 +1,43 @@
+body {
+  Max-width : 540px;
+  min-width: 320px;
+  margin: 0 auto;
+  font: normal 14px/1.5 Tahoma, "Lucida Grande" , verdana, "Microsoftxahei",STxihei,hei;
+  color: #000;
+  background: #f2f2f2;overflow-x : hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.search_index{
+   position: fixed;
+   left: 50%;
+   right: 0;
+   width: 100%;
+   min-width: 320px;
+   max-height: 540px;
+   height: 44px;
+   background-color: red;
+   transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   display: flex;
+}
+
+.search_input{
+  flex: 1;
+  margin: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.div_img{
+  width: 44px;
+  height: 44px;
+  background-color: palegreen;
+}
+
+.div_img::before{
+  content: "";
+  display: block;
+  background-color: aqua;
+  
+}
