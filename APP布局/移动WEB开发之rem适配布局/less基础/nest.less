@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    span{
+        color: red;
+    }
+}
+
+.divClass{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    .spanClass{
+        color: burlywood;
+    }
+    p{
+        color: red;
+    }
+    &::before{
+        content: "我是伪类";
+    }
+}
